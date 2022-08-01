@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "todo-nodejs",
+  "name": "rl-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bruxvr/TODO-nodejs.git"
+    "url": "git+https://github.com/bruxvr/rl-nodejs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bruxvr/TODO-nodejs/issues"
+    "url": "https://github.com/bruxvr/rl-nodejs/issues"
   },
-  "homepage": "https://github.com/bruxvr/TODO-nodejs#readme"
+  "homepage": "https://github.com/bruxvr/rl-nodejs#readme"
 }
