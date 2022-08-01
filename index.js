@@ -8,14 +8,14 @@ function ordenarPropriedades() {
     let lista = [];
     const pergunta = `Quais as propriedades você deseja ordenar? \n` 
     rl.question(pergunta, (resposta) => {
-        if (resposta.trim() == 'sair') {
+        if (resposta.trim().toUpperCase() == 'SAIR') {
             rl.close();
         } else {
             lista.push(resposta)
             rl.setPrompt(pergunta);
             rl.prompt();
             rl.on('line', (resposta) => {
-                if (resposta.trim() == 'sair') {
+                if (resposta.trim().toUpperCase() == 'SAIR') {
                     rl.close();
                 } else {
                     lista.push(resposta)
