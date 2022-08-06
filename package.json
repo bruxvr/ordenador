@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "rl-nodejs",
+  "name": "ordenador",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bruxvr/rl-nodejs.git"
+    "url": "git+https://github.com/bruxvr/ordenador.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bruxvr/rl-nodejs/issues"
+    "url": "https://github.com/bruxvr/ordenador/issues"
   },
-  "homepage": "https://github.com/bruxvr/rl-nodejs#readme"
+  "homepage": "https://github.com/bruxvr/ordenador#readme"
 }
