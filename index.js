@@ -11,19 +11,19 @@ function ordenarPropriedades() {
         if (resposta.trim().toUpperCase() == 'SAIR') {
             rl.close();
         } else {
-            lista.push(resposta)
+            lista.push(resposta.toUpperCase())
             rl.setPrompt(pergunta);
             rl.prompt();
             rl.on('line', (resposta) => {
                 if (resposta.trim().toUpperCase() == 'SAIR') {
                     rl.close();
                 } else {
-                    lista.push(resposta)
+                    lista.push(resposta.toUpperCase())
                     rl.setPrompt(pergunta);
                     rl.prompt();
                 }})}})
                 rl.on('close', ()=>{
-                    const listaOrdenada = lista.sort((a, b) => (a > b ? 1 : a === b ? 0 : -1))   
+                    const listaOrdenada = lista.sort()
                     console.log(listaOrdenada)
                 })
             }
